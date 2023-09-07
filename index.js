@@ -22,7 +22,14 @@ function mudarjogada(id) {
     jogadaatual == 9
   ) {
     if (document.getElementById(id).className == "nes-kirby") {
-      document.getElementById(id).className = "nes-charmander";
+      document.getElementById(id).className = "nes-ash"; // leo quis mudar para o ash ;]
+    }
+    if (
+        document.getElementById(1).className == "nes-ash" &&
+        document.getElementById(2).className == "nes-ash" &&
+        document.getElementById(3).className == "nes-ash"
+       ) {
+      document.getElementById('resultado').innerText = 'ash ganhou!'
     }
   }
 
